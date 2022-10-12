@@ -48,14 +48,7 @@ public class controller extends HttpServlet {
         
        /* Creacion del DAO**/
        
-     mastercliente master = new mastercliente();
-       
-       
-       
-        
-      
-        
-        
+    
         
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
